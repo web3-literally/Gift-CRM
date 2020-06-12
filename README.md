@@ -1,6 +1,6 @@
 # CRM version 1
 
-this is [![screenshot](screenshot "screenshot")](https://github.com/bear-gold/Gift-CRM/raw/master/screenshot.png "screenshot")
+this is [![screenshot](https://github.com/bear-gold/Gift-CRM/raw/master/screenshot.png "screenshot")](https://github.com/bear-gold/Gift-CRM/raw/master/screenshot.png "screenshot")
 
 This is Layout Demo and Folder operation Demo.
 Folder Operation has as following function
