@@ -1,0 +1,179 @@
+.main-container{
+  min-height: 450px;
+}
+.pull-right{
+   float: right;
+}
+.partial-container
+{
+  display: block;
+  width: 100%;
+  border:1px solid #999;
+  border-radius: 15px;
+  height: 500px;
+  padding:10px;
+  background:#e2dddd;
+}
+.partial-container .btn{
+  color: white;
+}
+.cost-info{
+   padding-top: 8px;
+   padding-left: 4px;
+}
+.btn-add-to-list{
+  margin-bottom: 5px;;
+}
+.partial-container .descriptor{
+   color:rgb(49, 49, 250);
+   font-size: 22px;
+   font-weight: 500;
+}
+.btn-container{
+  padding-top: 5px;
+}
+.file-explorer,.product-list{
+  position: relative;
+  width: 100%;
+  height: calc(100% - 80px);
+  border:1px solid #eee;
+  overflow-y: scroll;
+  background: white;
+}
+.favour-list{
+  position: relative;
+  width: 100%;
+  height: calc(100% - 40px);
+  border:1px solid #eee;
+  overflow-y:scroll;
+  background: white;
+  overflow-x: hidden;
+}
+.favour-list::-webkit-scrollbar{
+   width: 9px;
+   color:white;
+   background:white;
+}
+.favour-list::-webkit-scrollbar-thumb{
+   width:8px;
+   color:red;
+   background:rgba(3, 3, 3, 0.808);
+   border-radius:3px;
+}
+.file-explorer::-webkit-scrollbar{
+   width: 9px;
+   height: 9px;
+   color:white;
+   background:white;
+}
+.file-explorer::-webkit-scrollbar-thumb{
+   width:8px;
+   color:red;
+   background:rgba(3, 3, 3, 0.808);
+   border-radius:3px;
+}
+.product_name{
+  margin-top: 10px;
+}
+.card{
+   border:1px solid #eee;
+}
+#root{
+  padding:5px;
+}
+.lock{
+  display: none;
+  position:fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #111;
+  opacity: 0.9;
+  z-index:1500;
+  
+}
+.lock img{
+    position: absolute;
+    width: 80px;
+    top: calc(50% - 40px);
+    left: calc(50% - 40px);
+}
+.text-right{
+   text-align: right;
+}
+.form-label{
+  margin-top: 5px;
+}
+.text-red{
+   color:rgb(255, 99, 71);
+}
+.text-blue{
+  color: cornflowerblue;
+}
+.text-green{
+  color: green;
+}
+
+
+
+
+/* ------------------                    ----------------- */
+.tree-item{
+   display: grid;
+   cursor: pointer;
+   position: relative;   
+}
+.tree-item .fa-folder{
+   color:rgb(218, 166, 56);
+}
+.tree-item .folder-item{
+   display: block;
+   padding-left: 5px;
+   text-overflow: ellipsis; 
+   overflow: inherit; 
+   white-space: nowrap;
+}
+.folder-item.focus{
+    background: rgba(0, 123, 255, 0.14);
+}
+.tree-item .folder-item:hover{
+   background: rgba(0, 123, 255, 0.14);
+}
+.tree-item .folder-item.active{
+  background: rgba(0, 123, 255, 0.34);
+}
+.tree-item *::selection{
+  background:transparent;
+}
+.tree-item input::selection{
+  background:rgba(0, 123, 255, 0.34);
+}
+.tree-item input[type="checkbox"]{
+   display: none;
+}
+.tree-item ul{
+  padding-left:20px;
+  margin: 0;
+}
+.tree-item.closed ul{
+  display: none;
+}
+.contextmenu{
+   top: 0;
+   position: absolute;
+   background: white;
+   border:1px solid #eee;
+   width: 150px;
+   display: none;
+}
+.contextmenu li{
+   
+   display: grid;
+   padding:5px 15px;
+   cursor: pointer;
+   border:1px solid #eee;
+}
+.contextmenu li:hover{
+   background: lightgrey;
+}
